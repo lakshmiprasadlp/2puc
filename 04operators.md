@@ -162,6 +162,61 @@ Comparison operators are used to compare two values. They return a boolean value
 | >=       | Greater than or equal to | `a >= b` |
 | <=       | Less than or equal to | `a <= b` |
 
+
+```
+#include <iostream>
+
+int main() {
+    int a = 5;
+    int b = 10;
+
+    // Equal to
+    if (a == b) {
+        std::cout << "a is equal to b" << std::endl;
+    } else {
+        std::cout << "a is not equal to b" << std::endl;
+    }
+
+    // Not equal to
+    if (a != b) {
+        std::cout << "a is not equal to b" << std::endl;
+    } else {
+        std::cout << "a is equal to b" << std::endl;
+    }
+
+    // Greater than
+    if (a > b) {
+        std::cout << "a is greater than b" << std::endl;
+    } else {
+        std::cout << "a is not greater than b" << std::endl;
+    }
+
+    // Less than
+    if (a < b) {
+        std::cout << "a is less than b" << std::endl;
+    } else {
+        std::cout << "a is not less than b" << std::endl;
+    }
+
+    // Greater than or equal to
+    if (a >= b) {
+        std::cout << "a is greater than or equal to b" << std::endl;
+    } else {
+        std::cout << "a is not greater than or equal to b" << std::endl;
+    }
+
+    // Less than or equal to
+    if (a <= b) {
+        std::cout << "a is less than or equal to b" << std::endl;
+    } else {
+        std::cout << "a is not less than or equal to b" << std::endl;
+    }
+
+    return 0;
+}
+
+```
+
 ## Logical Operators
 Logical operators are used to perform logical operations.
 
