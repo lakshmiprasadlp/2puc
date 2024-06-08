@@ -1,3 +1,5 @@
+Certainly! Here are the examples modified to use `cin` for input and `using namespace std;` for simplicity.
+
 ### C++ Conditional Statements Syntax and Examples
 
 #### 1. **If Statement**
@@ -13,12 +15,15 @@ if (condition) {
 **Example:**
 ```cpp
 #include <iostream>
+using namespace std;
 
 int main() {
-    int age = 20;
+    int age;
+    cout << "Enter your age: ";
+    cin >> age;
 
     if (age >= 18) {
-        std::cout << "You are an adult." << std::endl;
+        cout << "You are an adult." << endl;
     }
 
     return 0;
@@ -40,14 +45,17 @@ if (condition) {
 **Example:**
 ```cpp
 #include <iostream>
+using namespace std;
 
 int main() {
-    int age = 16;
+    int age;
+    cout << "Enter your age: ";
+    cin >> age;
 
     if (age >= 18) {
-        std::cout << "You are an adult." << std::endl;
+        cout << "You are an adult." << endl;
     } else {
-        std::cout << "You are not an adult." << std::endl;
+        cout << "You are not an adult." << endl;
     }
 
     return 0;
@@ -71,20 +79,23 @@ if (condition1) {
 **Example:**
 ```cpp
 #include <iostream>
+using namespace std;
 
 int main() {
-    int score = 85;
+    int score;
+    cout << "Enter your score: ";
+    cin >> score;
 
     if (score >= 90) {
-        std::cout << "Grade: A" << std::endl;
+        cout << "Grade: A" << endl;
     } else if (score >= 80) {
-        std::cout << "Grade: B" << std::endl;
+        cout << "Grade: B" << endl;
     } else if (score >= 70) {
-        std::cout << "Grade: C" << std::endl;
+        cout << "Grade: C" << endl;
     } else if (score >= 60) {
-        std::cout << "Grade: D" << std::endl;
+        cout << "Grade: D" << endl;
     } else {
-        std::cout << "Grade: F" << std::endl;
+        cout << "Grade: F" << endl;
     }
 
     return 0;
@@ -112,34 +123,37 @@ switch (expression) {
 **Example:**
 ```cpp
 #include <iostream>
+using namespace std;
 
 int main() {
-    int day = 3;
+    int day;
+    cout << "Enter the day of the week (1-7): ";
+    cin >> day;
 
     switch (day) {
         case 1:
-            std::cout << "Monday" << std::endl;
+            cout << "Monday" << endl;
             break;
         case 2:
-            std::cout << "Tuesday" << std::endl;
+            cout << "Tuesday" << endl;
             break;
         case 3:
-            std::cout << "Wednesday" << std::endl;
+            cout << "Wednesday" << endl;
             break;
         case 4:
-            std::cout << "Thursday" << std::endl;
+            cout << "Thursday" << endl;
             break;
         case 5:
-            std::cout << "Friday" << std::endl;
+            cout << "Friday" << endl;
             break;
         case 6:
-            std::cout << "Saturday" << std::endl;
+            cout << "Saturday" << endl;
             break;
         case 7:
-            std::cout << "Sunday" << std::endl;
+            cout << "Sunday" << endl;
             break;
         default:
-            std::cout << "Invalid day" << std::endl;
+            cout << "Invalid day" << endl;
             break;
     }
 
