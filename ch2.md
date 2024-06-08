@@ -86,3 +86,37 @@ Let's simplify the Boolean expression \( A \cdot (\overline{A} + B) \):
    \( 0 + (A \cdot B) = A \cdot B \)
 
 Thus, \( A \cdot (\overline{A} + B) = A \cdot B \).
+
+
+
+
+
+
+
+
+#include <iostream>
+
+int main() {
+    int a = 5;
+    int b = 10;
+
+    // Equal to
+    std::cout << (a == b ? "a is equal to b" : "a is not equal to b") << std::endl;
+
+    // Not equal to
+    std::cout << (a != b ? "a is not equal to b" : "a is equal to b") << std::endl;
+
+    // Greater than
+    std::cout << (a > b ? "a is greater than b" : "a is not greater than b") << std::endl;
+
+    // Less than
+    std::cout << (a < b ? "a is less than b" : "a is not less than b") << std::endl;
+
+    // Greater than or equal to
+    std::cout << (a >= b ? "a is greater than or equal to b" : "a is not greater than or equal to b") << std::endl;
+
+    // Less than or equal to
+    std::cout << (a <= b ? "a is less than or equal to b" : "a is not less than or equal to b") << std::endl;
+
+    return 0;
+}
