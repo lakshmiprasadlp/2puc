@@ -61,7 +61,25 @@ int main() {
     return 0;
 }
 ```
+```
+#include <iostream>
+using namespace std;
 
+int main() {
+    int number;
+    cout << "Enter a number: ";
+    cin >> number;
+
+    if (number % 2 == 0) {
+        cout << "The number is even." << endl;
+    } else {
+        cout << "The number is odd." << endl;
+    }
+
+    return 0;
+}
+
+```
 #### 3. **If-Else If-Else Statement**
 The `if-else if-else` statement allows you to check multiple conditions. It executes a block of code as soon as one of the conditions is true.
 
