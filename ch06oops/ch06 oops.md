@@ -1,4 +1,4 @@
-![alt text](image.png)
+![alt text](image-2.png)
 1. **Class**: A blueprint for creating objects, defining a set of attributes and methods that the objects created from the class will have.
 
 2. **Object**: An instance of a class that contains actual values for the attributes defined by the class and can perform the methods defined by the class.
