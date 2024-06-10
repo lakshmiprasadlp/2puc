@@ -9,6 +9,9 @@ False ---> 0
 
 ![alt text](image-1.png)
 
+and ---> *
+or ---> +
+
 ![alt text](image.png)
 
 
