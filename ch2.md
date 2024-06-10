@@ -7,10 +7,10 @@ False ---> 0
 
 # Logical operatios
 
-![alt text](image-1.png)
+![alt text](image-5.png)
 
-and ---> *
-or ---> +
+# and ---> *
+# or ---> +
 
 ![alt text](image.png)
 
