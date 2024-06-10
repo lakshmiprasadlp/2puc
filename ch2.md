@@ -41,3 +41,8 @@ False ---> 0
 # Boolean theorms
 
 ![alt text](image-9.png)
+
+# DeMorgan therom
+
+![alt text](image-10.png)
+
