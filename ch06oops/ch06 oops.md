@@ -1,9 +1,8 @@
-![alt text](image-11.png)
+![alt text](image.png)
 1. **Class**: A blueprint for creating objects, defining a set of attributes and methods that the objects created from the class will have.
 
 2. **Object**: An instance of a class that contains actual values for the attributes defined by the class and can perform the methods defined by the class.
-
-![alt text](image-12.png)
+![alt text](image-1.png)
 
 
 3. **Abstraction**: The concept of hiding complex implementation details and showing only the necessary features of an object.
