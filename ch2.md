@@ -7,7 +7,7 @@ False ---> 0
 
 # Logical operatios
 
-![alt text](image-5.png)
+
 
 # and ---> *
 # or ---> +
@@ -19,7 +19,7 @@ False ---> 0
 ### Fallacy 
 
 # OR 3 input
-![alt text](image-3.png)
+![alt text](image-5.png)
 # AND 3 input
 ![alt text](image-2.png)
 # venn diagram
