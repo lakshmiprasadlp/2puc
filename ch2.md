@@ -26,3 +26,12 @@ False ---> 0
 
 ![alt text](image-4.png)
 
+# postulates 
+
+
+
+
+
+
+# true table 
+![alt text](image-6.png)
