@@ -26,12 +26,18 @@ False ---> 0
 
 ![alt text](image-4.png)
 
-# postulates 
+# principle of Duality
 
+## The principle of duality in Boolean algebra states that every valid Boolean expression remains valid if all AND (∧) and OR (∨) operators are interchanged, and all identity elements 0 and 1 are swapped. This means that for any Boolean expression, its dual (obtained by these substitutions) will also be a valid Boolean expression.
 
+![alt text](image-8.png)
 
 
 
 
 # true table 
 ![alt text](image-6.png)
+
+# Boolean theorms
+
+![alt text](image-9.png)
